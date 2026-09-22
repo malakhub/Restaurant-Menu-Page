@@ -13,6 +13,7 @@ A sleek, responsive single-page restaurant website — built with pure HTML, CSS
 </div>
 
 <br>
+
 ## 🌐 Live Demo
 
 [View the live website](https://malakhub.github.io/Restaurant-Menu-Page/)
