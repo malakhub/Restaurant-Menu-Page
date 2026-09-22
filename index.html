@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our menu featuring fresh ingredients, delicious dishes, and unforgettable flavors.">
+    <title>ABOHASSAN | Restaurant & Table Reservations</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body id="top">
+
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+        <symbol id="i-grid" viewBox="0 0 16 16">
+            <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z" />
+        </symbol>
+        <symbol id="i-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+        </symbol>
+
+        <symbol id="i-user" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></symbol>
+        <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 6 9-6" /></symbol>
+        <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /></symbol>
+        <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2" /><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" /></symbol>
+        <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" /></symbol>
+        <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7" /></symbol>
+        <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" /></symbol>
+        <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7" /></symbol>
+        <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><path d="M17.5 6.5h.01" /></symbol>
+        <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></symbol>
+        <symbol id="i-x" viewBox="0 0 24 24"><path d="M4 4l16 16M20 4L4 20" /></symbol>
+        <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect x="2" y="9" width="4" height="12" /><circle cx="4" cy="4" r="2" /></symbol>
+    </svg>
+
+    <header class="site-header">
+        <nav class="nav" aria-label="Main navigation">
+            <button class="icon-btn" type="button" aria-label="Apps">
+                <svg class="icon icon--fill"><use href="#i-grid"></use></svg>
+            </button>
+
+            <a href="#top" class="logo">ABOHASSAN</a>
+
+            <button class="icon-btn" type="button" id="menu-toggle" aria-label="Open menu"
+                aria-expanded="false" aria-controls="nav-links">
+                <svg class="icon icon--fill"><use href="#i-list"></use></svg>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reviews">Guest Reviews</a></li>
+                <li><a href="#reserve">Reserve a Table</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Explore Our Menu</h1>
+                <p>Explore our menu featuring fresh ingredients, delicious dishes, and
+                    unforgettable flavors crafted for every dining experience.
+                </p>
+
+                <div class="hero-gallery">
+                    <div><img src="./files/pic1.jpeg" alt="Colorful fruit cubes on a white plate"></div>
+                    <div><img src="./files/pic2.avif" alt="Cheese board with grapes and berries"></div>
+                    <div><img src="./files/pic3.avif" alt="Chocolate and raspberry dessert"></div>
+                    <div><img src="./files/pic4.avif" alt="Cream cake topped with fresh berries"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu" id="menu">
+            <div class="container">
+                <div class="menu-row">
+                    <article class="menu-card">
+                        <span class="tag">Assorted <b>Menu</b></span>
+                        <h2>Famous Sushi's</h2>
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <div>
+                                    <h3>Philadelphia Roll</h3>
+                                    <p>Ricotta, goat cheese, beetroot and datterini</p>
+                                </div>
+                                <span class="price">$51.75</span>
+                                <span class="menu-thumb"><img src="./files/usa food.jpeg" alt=""></span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <h3>California Roll</h3>
+                                    <p>Spalla Cotta, Mortadella, Culacciona.</p>
+                                </div>
+                                <span class="price">$71.25</span>
+                                <span class="menu-thumb"><img src="./files/california_roll.jpeg" alt=""></span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <h3>Shrimp Tempura</h3>
+                                    <p>Our selection of fresh oysters, limes.</p>
+                                </div>
+                                <span class="price">$69.50</span>
+                                <span class="menu-thumb"><img src="./files/download (21).jpeg" alt=""></span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <h3>Tekka Maki</h3>
+                                    <p>Truffle mash, pepper sauce.</p>
+                                </div>
+                                <span class="price">$90.00</span>
+                                <span class="menu-thumb"><img src="./files/Tekka Maki (Tuna Sushi Roll).jpeg" alt=""></span>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="menu-card">
+                        <span class="tag">Fresh <b>Sea-Foods</b></span>
+                        <h2>Sea Fish &amp; Dishes</h2>
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <div>
+                                    <h3>Crispy Skin Chicken</h3>
+                                    <p>Prickly Pear, Chancaca, Key Lime</p>
+                                </div>
+                                <span class="price">$66.20</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <h3>Ebony Fillet Steak</h3>
+                                    <p>Purple Corn, Pineapple, Apple</p>
+                                </div>
+                                <span class="price">$99.00</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <h3>Tommy's Margarita</h3>
+                                    <p>Tomato, Salt, Black Pepper</p>
+                                </div>
+                                <span class="price">$52.40</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <h3>Wild Mushroom Arancini</h3>
+                                    <p>Truffle mash, pepper sauce</p>
+                                </div>
+                                <span class="price">$36.80</span>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+
+                <div class="menu-row">
+                    <article class="menu-card">
+                        <span class="tag">From the <b>Kitchen</b></span>
+                        <h2>Fries &amp; Sandwich</h2>
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <div>
+                                    <h3>Crispy, salted friesia roll</h3>
+                                    <p>Ricotta, goat cheese, beetroot and datterini</p>
+                                </div>
+                                <span class="price">$51.75</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <h3>Topped with melted cheese</h3>
+                                    <p>Spalla Cotta, Mortadella, Culacciona.</p>
+                                </div>
+                                <span class="price">$71.25</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <h3>Chili cheese fries</h3>
+                                    <p>Our selection of fresh oysters, limes.</p>
+                                </div>
+                                <span class="price">$69.50</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <h3>Seasoned, spiral-shaped fries</h3>
+                                    <p>Truffle mash, pepper sauce.</p>
+                                </div>
+                                <span class="price">$90.00</span>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="menu-card">
+                        <span class="tag">Hearty <b>Favorites</b></span>
+                        <h2>Kebab &amp; Dry Thing</h2>
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <div>
+                                    <h3>Chicken seekh kebab</h3>
+                                    <p>Ricotta, goat cheese, beetroot and datterini</p>
+                                </div>
+                                <span class="price">$66.20</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <h3>Beef seekh kebab</h3>
+                                    <p>Spalla Cotta, Mortadella, Culacciona.</p>
+                                </div>
+                                <span class="price">$99.00</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <h3>Shish kebab</h3>
+                                    <p>Our selection of fresh oysters, limes.</p>
+                                </div>
+                                <span class="price">$52.40</span>
+                            </li>
+                            <li class="menu-item">
+                                <div>
+                                    <h3>Tandoori chicken tikka</h3>
+                                    <p>Truffle mash, pepper sauce.</p>
+                                </div>
+                                <span class="price">$36.80</span>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="testimonials" id="reviews">
+            <div class="container">
+                <span class="tag">From Our <b>Guests</b></span>
+                <blockquote class="quote" id="t-quote">Outstanding food, friendly staff, cozy atmosphere, generous portions, and <em>exceptional service made</em> <span class="fade">every visit truly unforgettable.</span></blockquote>
+            </div>
+
+            <div class="avatars" aria-label="Guest reviews">
+                <div class="avatar-track">
+                    <button type="button" class="avatar" style="--tint:#EBD9D0"
+                        data-name="Layla Hassan" data-role="Weekend Regular"
+                        data-quote="Every dish arrived fresh and beautifully plated, and the team |remembered our order from last time| which felt wonderful.">
+                        <img src="./files/avatar1.png" alt="Layla Hassan">
+                    </button>
+                    <button type="button" class="avatar" style="--tint:#D9E3E6"
+                        data-name="Kenji Tanaka" data-role="Sushi Lover"
+                        data-quote="The sushi here rivals places I've visited abroad. |Rice, fish, and timing were all perfect| from the first roll to the last.">
+                        <img src="./files/avatar2.png" alt="Kenji Tanaka">
+                    </button>
+                    <button type="button" class="avatar" style="--tint:#DDE3D0"
+                        data-name="Sofia Rossi" data-role="Dessert Fan"
+                        data-quote="I came for dinner and stayed for dessert. The berry cake alone is |worth the trip across town| without any doubt.">
+                        <img src="./files/avatar3.png" alt="Sofia Rossi">
+                    </button>
+                    <button type="button" class="avatar" style="--tint:#E6DCCB"
+                        data-name="Omar Khalil" data-role="Family Dinner Host"
+                        data-quote="We booked for twelve people and everything ran smoothly. The staff |handled every request with a smile| and the kids loved it.">
+                        <img src="./files/avatar4.png" alt="Omar Khalil">
+                    </button>
+                    <button type="button" class="avatar is-active" style="--tint:#DCD0C4"
+                        data-name="Michael Brown" data-role="Local Food Enthusiast"
+                        data-quote="Outstanding food, friendly staff, cozy atmosphere, generous portions, and |exceptional service made| every visit truly unforgettable.">
+                        <img src="./files/avatar5.png" alt="Michael Brown">
+                    </button>
+                    <button type="button" class="avatar" style="--tint:#E4D6CB"
+                        data-name="Emma Wilson" data-role="Brunch Regular"
+                        data-quote="The kebabs are smoky and juicy, the fries are crisp, and the |portions are more than generous| for the price.">
+                        <img src="./files/avatar6.png" alt="Emma Wilson">
+                    </button>
+                    <button type="button" class="avatar" style="--tint:#D8DDE6"
+                        data-name="Daniel Carter" data-role="Business Lunch Guest"
+                        data-quote="Fast, friendly, and consistent. I host client lunches here because the kitchen |never lets the table down| and the room stays calm.">
+                        <img src="./files/avatar7.png" alt="Daniel Carter">
+                    </button>
+                    <button type="button" class="avatar" style="--tint:#E3DBC6"
+                        data-name="Yara Mansour" data-role="Food Blogger"
+                        data-quote="Warm lighting, relaxed music, and a menu that |actually makes choosing difficult| because everything sounds good.">
+                        <img src="./files/avatar8.png" alt="Yara Mansour">
+                    </button>
+                    <button type="button" class="avatar" style="--tint:#DFE6DA"
+                        data-name="Anna Petrova" data-role="Date Night Regular"
+                        data-quote="Our favorite spot for date night. The seafood is always fresh and the |service never feels rushed| even on busy evenings.">
+                        <img src="./files/avatar9.png" alt="Anna Petrova">
+                    </button>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="t-controls">
+                    <button type="button" class="arrow arrow--prev" id="t-prev" aria-label="Previous guest">
+                        <svg class="icon"><use href="#i-arrow-left"></use></svg>
+                    </button>
+
+                    <div class="t-person" aria-live="polite">
+                        <h3 id="t-name">Michael Brown</h3>
+                        <p id="t-role">Local Food Enthusiast</p>
+                    </div>
+
+                    <button type="button" class="arrow arrow--next" id="t-next" aria-label="Next guest">
+                        <svg class="icon"><use href="#i-arrow-right"></use></svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="reservation" id="reserve">
+            <div class="reserve-card">
+                <span class="tag">Booking <b>Table</b></span>
+                <h2>Reserve Your Table</h2>
+                <p class="lead">Book your table in advance and enjoy a memorable dining experience
+                    with delicious food and exceptional service.</p>
+
+                <form id="reservation-form">
+                    <div class="field">
+                        <label for="full-name">Full Name</label>
+                        <div class="control">
+                            <input type="text" name="full-name" id="full-name" placeholder="Enter your name" autocomplete="name" required>
+                            <svg class="icon"><use href="#i-user"></use></svg>
+                        </div>
+                    </div>
+
+                    <div class="field-row">
+                        <div class="field">
+                            <label for="email">Email Address</label>
+                            <div class="control">
+                                <input type="email" name="email" id="email" placeholder="your@gmail.com" autocomplete="email" required>
+                                <svg class="icon"><use href="#i-mail"></use></svg>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label for="phone">Phone Number</label>
+                            <div class="control">
+                                <input type="tel" name="phone" id="phone" placeholder="Enter your number" autocomplete="tel">
+                                <svg class="icon"><use href="#i-phone"></use></svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="subject">Subject</label>
+                        <div class="control">
+                            <input type="text" name="subject" id="subject" placeholder="Enter your subject">
+                            <svg class="icon"><use href="#i-briefcase"></use></svg>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="requests">Special Requests</label>
+                        <div class="control">
+                            <textarea name="requests" id="requests" rows="4" placeholder="Special requests if you have any"></textarea>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn">Make A Reservation</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer" id="contact">
+        <div class="container footer-top">
+
+            <ul class="contact-list">
+                <li>
+                    <span class="circle"><svg class="icon"><use href="#i-phone"></use></svg></span>
+                    <div>
+                        <h4>(252) 555-0126</h4>
+                        <p>Monday - Friday, 10 AM - 11 PM</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="circle"><svg class="icon"><use href="#i-pin"></use></svg></span>
+                    <div>
+                        <h4>25 Market Street, Downtown</h4>
+                        <p>Quality food, friendly service always</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="circle"><svg class="icon"><use href="#i-mail"></use></svg></span>
+                    <div>
+                        <h4>zestora.foods@gmail.com</h4>
+                        <p>Your connection to delicious meals</p>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="footer-cols">
+                <div>
+                    <h4>Our Menu</h4>
+                    <ul>
+                        <li><a href="#menu">Soups &amp; Salads</a></li>
+                        <li><a href="#menu">Chef's Specials</a></li>
+                        <li><a href="#menu">Seasonal Foods</a></li>
+                        <li><a href="#menu">Hot Beverages</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Opening Hours</h4>
+                    <ul>
+                        <li>Monday - 11:00 AM – 10:00 PM</li>
+                        <li>Tuesday - 11:00 AM – 10:00 PM</li>
+                        <li>Wednesday - 8:00 AM – 4:00 PM</li>
+                        <li>Thursday - 11:00 AM – 10:00 PM</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Customer Help</h4>
+                    <ul>
+                        <li><a href="#reserve">Make a Reservation</a></li>
+                        <li><a href="#contact">Delivery Information</a></li>
+                        <li><a href="#contact">Delivery Support</a></li>
+                        <li><a href="#reviews">Feedback &amp; Review</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer-mid">
+            <p class="footer-note">For the reservations, order, or support, please
+                contact our restaurant team at 2222-000.</p>
+
+            <div class="social">
+                <span>Social Media</span>
+                <a href="#" aria-label="Instagram"><svg class="icon"><use href="#i-instagram"></use></svg></a>
+                <a href="#" aria-label="Facebook" class="is-facebook"><svg class="icon"><use href="#i-facebook"></use></svg></a>
+                <a href="#" aria-label="X"><svg class="icon"><use href="#i-x"></use></svg></a>
+                <a href="#" aria-label="LinkedIn"><svg class="icon"><use href="#i-linkedin"></use></svg></a>
+            </div>
+
+            <div class="legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms &amp; Conditions</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <svg class="footer-brand" viewBox="0 0 1000 118" role="img" aria-label="ABOHASSAN" preserveAspectRatio="xMidYMid meet">
+                <defs>
+                    <linearGradient id="brand-fade" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0" stop-color="#F9F4EA" stop-opacity="0.17" />
+                        <stop offset="1" stop-color="#F9F4EA" stop-opacity="0.05" />
+                    </linearGradient>
+                </defs>
+                <text x="0" y="116" textLength="1000" lengthAdjust="spacingAndGlyphs" fill="url(#brand-fade)">ABOHASSAN</text>
+            </svg>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>Copyright© <span id="year">2026</span>, all rights reserved by ABOHASSAN</p>
+            <a href="#top">Back to Beginning <svg class="icon"><use href="#i-arrow-up"></use></svg></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
