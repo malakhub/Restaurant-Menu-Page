@@ -13,11 +13,11 @@ A sleek, responsive single-page restaurant website — built with pure HTML, CSS
 </div>
 
 <br>
+## 🌐 Live Demo
 
-<div align="center">
-  <img src="./docs/preview.png" alt="Project preview — desktop and mobile views" width="850">
-  <p><em>Replace this with a real preview image — see <a href="#-adding-your-own-screenshots">Adding Your Own Screenshots</a> below.</em></p>
-</div>
+[View the live website](https://malakhub.github.io/Restaurant-Menu-Page/)
+
+![Project preview](./files/desktop.png)
 
 ---
 
